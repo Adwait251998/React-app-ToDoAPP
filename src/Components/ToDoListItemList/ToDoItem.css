@@ -1,0 +1,55 @@
+.itemContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    height: 50px;
+    background-color: rgba(205,212,218,255);
+    padding: 5px 15px;
+    box-sizing: border-box;
+}
+.itemTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 20px;
+    flex-grow: 1;
+}
+.actionButtons{
+    font-style: normal;
+    font-size: 12px;
+    line-height: 24px;
+    background-color: rgba(248,249,250,255);
+    border: 1px solid rgb(20, 37, 55);
+    border-radius: 50px;
+    height: 40px;
+    width: auto;
+    padding: 8px 25px;
+    text-transform: initial;
+    cursor: pointer;
+    white-space: nowrap;
+    font-weight: 700 !important;
+}
+.actionButtons:hover{
+    background-color: rgb(20, 37, 55);
+    border: 1px solid rgb(20, 37, 55);
+    box-shadow: none;
+    color: #ffffff !important;
+}
+.marginLeft5{
+    margin-left: 5px;
+}
+.displayFlex{
+    display: flex;
+    align-items: center;
+}
+[role=tooltip].popup-content{
+    width: fit-content !important;
+}
+.marginTop0{
+    margin-top: 0px;
+}
+.editContainer{
+    padding: 10px;;
+}

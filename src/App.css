@@ -1,0 +1,72 @@
+
+.toDoListContainer{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 600px;
+}
+.toDoListTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.headerLine{
+    border-bottom: 1px solid black;
+}
+.width100{
+    width:100%;
+}
+.addItemInputBar{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: rgb(20, 37, 55);
+    padding: 5px 10px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(196, 206, 212, 0.5);
+    border-radius: 2px;
+    margin: 0px;
+    box-shadow: rgba(48, 53, 76, 0.1) 0px 1px;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+input:focus-visible{
+    border-color: rgb(196, 206, 212);
+    outline: none !important;
+}
+.styleButton{
+    font-style: normal;
+    font-size: 12px;
+    line-height: 24px;
+    background-color: rgb(20, 37, 55);
+    border: 1px solid rgb(20, 37, 55);
+    border-radius: 50px;
+    height: 50px;
+    width: auto;
+    padding: 13px 30px;
+    text-transform: initial;
+    cursor: pointer;
+    white-space: nowrap;
+    font-weight: 700 !important;
+    color: rgb(255, 255, 255) !important;
+}
+.styleButton:hover{
+    background-color: transparent;
+    border: 1px solid rgb(20, 37, 55);
+    box-shadow: none;
+    color: rgb(20, 35, 55) !important;
+}
+.marginTop15{
+margin-top: 15px;
+}
+.toDoItemListCont{
+    margin-top: 40px;
+}
